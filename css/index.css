@@ -1,0 +1,178 @@
+body {
+	color: #5a5a5a;
+	outline: none;
+	font-family: "Microsoft YaHei";
+	overflow-x:hidden;
+	position:relative;
+}
+body>div{
+	margin: 5px;
+}
+
+/*页面选中黄色框*/
+body .divHover:hover{
+    outline-color:#fd9243;
+    outline-width:2px;
+    outline-style:solid;
+}
+a{
+	cursor:pointer;
+}
+ul, li {
+	list-style: none;
+	margin: 0 auto;
+	outline: none;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+dt {
+    font-weight: bold;
+}
+dt, dd {
+    line-height: 1.42857143;
+}
+
+table {
+    background-color: transparent;
+}
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+div .row {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.gray{
+	color:#868a8e;
+}
+.orange{
+	color:#fd9243;
+}
+.white{
+	color:#ffffff;
+}
+
+.centerBox{
+	width: 1000px !important;
+	min-width: 1000px;
+    margin: 0 auto;
+    clear: both;
+}
+
+a:hover {text-decoration: none;}
+
+.hide{
+	display: none;
+}
+.show{
+	display: block;
+}
+.loginGroup{
+	height: 70px;
+	clear: both;
+	width: 300px;
+	margin: 0 auto;
+}
+
+.loginGroup .textInput{
+    line-height:38px;
+    border:0;
+    background:none;
+    width: 100%;
+    height:100%;
+}
+.loginGroup .textInput:active{
+    line-height:38px;
+    border:0;
+    background:none;
+}
+
+.Underline{
+	word-wrap: break-word;
+	border-bottom:3px solid #e04646
+}
+
+.xmText{
+	font-size:12px;
+	color:#24313c;
+	font-weight:100;
+	display:inline-block;
+	margin-left:5px;
+	line-height:22px;
+}
+
+.loginGroup .btnLogin{
+	width:125px;
+	height:40px;
+	background-color:#e04646;
+	color:#ffffff;
+	border:0;
+	border-radius:4px;
+}
+
+.loginGroup .btnRegister{
+	width:125px;
+	height:40px;
+	background-color:#5fc8ba;
+	color:#ffffff;
+	border:0;
+	border-radius:4px;
+}
+.ad{
+	position: relative;
+}
+
+.ticSws{
+	width: 568px;
+    height: 301px;
+    border: 1px solid #ededed;
+    display: none;
+    background: #ffffff;
+    border-left: 0;
+    overflow: hidden;
+}
+
+
+/*更多*/
+.dop_gd {
+    display: inline-block;
+    float: right;
+    width: 50px;
+    height: 20px;
+    background: url(../static/images/sy_gd.png) left center no-repeat;
+}
+.divHover b {
+    display: none;
+    padding-top: 10px;
+    float: right;
+}
+.divHover:hover b {
+    display: block;
+}
+
+.dop_gd:hover {
+	background: url(../static/images/sy_gd1.png) left center no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+

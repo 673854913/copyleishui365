@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="乐税网是中国最专业的财税服务市场！是企业、税务师、事务所、社会公众相互沟通、交易的涉税服务市集；乐税网是一个涉税服务行业细分的搜索引擎，网站提供的服务信息包括税务咨询，涉税解决方案，税务培训，税务人才，税务资讯，税务知识等。">
+    <title>山寨乐税</title>
+
+    <!-- Bootstrap -->
+    <link href="static/zui/css/zui.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.4/jquery.fullPage.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/character.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div id="top_dht">
+      <div id="kouhao_topdh">
+        <ul id="topbg1" class="pull-left">
+          <li><a id="hello" class="orange" data-toggle="modal" data-target="#myModal">你好，请登录</a></li>
+          <li class="haveMenu" style="position: relative;">
+            <a href="" class="gray">免费注册</a>
+            <ul class="dop_zcxq hide">
+              <li>用户注册</li>
+              <li>服务者注册</li>
+            </ul>
+          </li>
+          <li><a href="" class="gray">我的乐税</a></li>
+        </ul>
+        <ul id="topbg2" class="pull-left gray">
+          <li class="gwc_syzs"><a href="" class="shoppingCart gray">购物车</a><a href="" class="orange">0</a></li>
+          <li><a href="" class="gray">收藏乐税</a></li>
+          <li class="haveMenu" style="position: relative;">
+            <a href="" class="gray">关注乐税</a>
+            <div class="ewm_le hide">
+              <img src="static/images/leewm.jpg" rel="nofollow">
+            </div>
+          </li>
+          <li><a href="" class="gray">帮助乐税</a></li>
+          <li id="fwrx" class="orange">服务热线：400-010-2233</li>
+        </ul>
+      </div>
+    </div>
+    <div id="ad01" class="ad">
+      <a>
+        <img src="static/images/close.gif" width="40" height="11" border="0" style="cursor:pointer;">
+      </a>
+      <div></div>
+    </div>
+    <div id="title_search">
+      <div class="centerBox row">
+        <div id="logoContent" class="col-xs-3">
+          <div id="logo"></div>
+        </div>
+        <div id="searchBox">
+          <div id="search">
+            <div class="btn-group">
+              <button id="optionList" class="btn dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">全部
+              </button>
+              <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1" style="width: 98px;min-width:98px;">
+                <li value="0"><a>全部</a></li>
+                <li value="1"><a>税务师</a></li>
+                <li value="2"><a>事务所</a></li>
+                <li value="3"><a>服务</a></li>
+                <li value="4"><a>培训</a></li>
+                <li value="5"><a>资讯</a></li>
+                <li value="6"><a>知识库</a></li>
+              </ul>
+            </div>
+            <input id="searchInput" type="text">
+            <button id="searchButton" class="btn btn-primary" type="button">乐税一下</button>
+          </div>
+          <div id="searchTip">
+            <strong> 热门搜索：</strong>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a id="rmss0" class="gray" style="cursor:pointer;">税务师</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a id="rmss1" class="gray" style="cursor:pointer;">宏泰</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a id="rmss2" class="gray" style="cursor:pointer;">中税协</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a id="rmss3" class="gray" style="cursor:pointer;">乐税网</a>&nbsp;&nbsp;&nbsp;&nbsp;
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="mainDht">
+      <ul id="mainDhtBox" class="centerBox">
+        <li class="action"><a href="http://www.leshui365.com/" id="nav_sy">首页</a></li>
+        <li><a href="http://www.leshui365.com/office/" target="_blank" id="nav_swssws">事务所</a></li>
+        <li><a href="http://www.leshui365.com/cta/" target="_blank" id="nav_zcsws">税务师</a></li>
+        <li><a href="http://www.leshui365.com/services/" target="_blank" id="nav_fwcp">财税服务</a></li>
+        <li><a href="http://sns.leshui365.com/" target="_blank" id="nav_sq">社区</a></li>
+        <li><a href="http://www.leshui365.com/knowledge/" target="_blank" id="nav_zsk">知识库</a></li>
+        <li><a href="http://www.leshui365.com/train/" target="_blank" id="nav_px">培训</a></li>
+        <li><a href="http://www.leshui365.com/exam/" target="_blank" id="nav_ksfw">税务师考试</a></li>
+        <li><a href="http://www.leshui365.com/forum/" target="_blank">纳税人讲堂</a></li>
+        <li><a href="http://www.leshui365.com/app/" target="_blank" id="nav_yygc">应用广场</a></li>
+        <li><a href="http://www.leshui365.com/info/" target="_blank" id="nav_sszx">资讯</a></li>
+        <li><a style="cursor:pointer;" onclick="window.open('http://www.leshui365.com/fapiao','_blank');">发票查验</a></li>
+        <li><a href="http://www.leshui365.com/ygz/" target="_blank" id="nav_bayz">营改增</a></li>
+      </ul>
+    </div>
+    <div id="dop_center">
+      <div class="centerBox" style="position:relative;">
+        <div id="shouyeTopLeft">
+          <ul>
+            <li id="dop_tic1" class="outHover"><b>事务所</b><span><img src="static/images/jt_sydh.png"></span>
+            <div class="dop_tic1_sws1 ticSws" style="position: absolute; left: 192px; top: 0px; z-index: 100; display: none;"><a href="http://www.leshui365.com/office/" target="_blank"><img src="http://www.leshui365.com/static/images/biz/ls/sy-zcgg1.png"></a></div></li>
+            <li id="dop_tic2" class="outHover"><b>税务师</b><span><img src="static/images/jt_sydh.png"></span>
+            <div class="dop_tic1_sws2 ticSws" style="position: absolute; left: 192px; top: 0px; z-index: 100; display: none;" id="zuoce2"><a href="http://www.leshui365.com/cta/" target="_blank"><img src="http://www.leshui365.com/static/images/biz/ls/sy-zcgg2.png"></a></div></li>
+            <li id="dop_tic3" class="outHover"><b>社区</b><span><img src="static/images/jt_sydh.png"></span>
+            <div class="dop_tic1_sws3 ticSws" style="position: absolute; left: 192px; top: 0px; z-index: 100; display: none;" id="zuoce3"><a href="http://sns.leshui365.com/" target="_blank"><img src="http://www.leshui365.com/static/images/biz/ls/sy-zcgg3.jpg"></a></div></li>
+            <li id="dop_tic4" class="outHover"><b>培训</b><span><img src="static/images/jt_sydh.png"></span>
+            <div class="dop_tic1_sws4 ticSws" style="position: absolute; left: 192px; top: 0px; z-index: 100; display: none;" id="zuoce4"><a href="http://www.leshui365.com/train/" target="_blank"><img src="http://www.leshui365.com/static/images/biz/ls/sy-zcgg4.png"></a></div></li>
+            <li id="dop_tic5" class="outHover"><b>知识库</b><span><img src="static/images/jt_sydh.png"></span>
+            <div class="dop_tic1_sws5 ticSws" style="position: absolute; left: 192px; top: 0px; z-index: 100; display: none;" id="zuoce5"><a href="http://www.leshui365.com/knowledge/" target="_blank"><img src="http://www.leshui365.com/static/images/biz/ls/sy-zcgg5.png"></a></div></li>
+            <li id="dop_tic6" class="outHover"><b>纳税人讲堂</b><span><img src="static/images/jt_sydh.png"></span>
+            <div class="dop_tic1_sws6 ticSws" style="position: absolute; left: 192px; top: 0px; z-index: 100; display: none; background: rgb(255, 255, 255);" id="zuoce6"><a href="http://www.leshui365.com/forum/" target="_blank"><img src="http://www.leshui365.com/static/images/biz/ls/sy-zcgg6.jpg"></a></div></li>
+        </ul>
+        </div>
+        <div id="shouyeTopCenter">
+          <div id="myNiceCarousel" class="carousel slide" data-ride="carousel">
+            <!-- 圆点指示器 -->
+            <ol class="carousel-indicators">
+              <li data-target="#myNiceCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myNiceCarousel" data-slide-to="1"></li>
+              <li data-target="#myNiceCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- 轮播项目 -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <img alt="First slide" src="http://ubmcmm.baidustatic.com/media/v1/0f000nTu6uQ6aYNfpq-Cas.jpg">
+              </div>
+              <div class="item">
+                <img alt="Second slide" src="http://ubmcmm.baidustatic.com/media/v1/0f0002xZEpp-HH-gUBISSf.jpg">
+              </div>
+              <div class="item">
+                <img alt="Third slide" src="http://ubmcmm.baidustatic.com/media/v1/0f000PC4L7y29Lro8bcCpf.jpg">
+              </div>
+            </div>
+
+            <!-- 项目切换按钮 -->
+            <a class="left carousel-control" href="#myNiceCarousel" data-slide="prev">
+              <span class="icon icon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#myNiceCarousel" data-slide="next">
+              <span class="icon icon-chevron-right"></span>
+            </a>
+          </div>
+        </div>
+        <div id="shouyeTopRight">
+          <div class="notice divHover">
+            <ul class="px-title">
+              <li class="curr">公告</li>
+              <li>活动</li>
+            </ul>
+            <div class="gonggao_hd_gg" style="position:relative">
+              <div class="px-list abs1 show">
+                <b>
+                  <a class="dop_gd" style="position:absolute;top:-25px;right:10px;" href="http://www.leshui365.com/show/notice/" target="_blank"></a>
+                </b>
+                <ul id="lskblist">
+                  <li><a title="2016税务师考试报名时间及入口汇总" href="info/zx16117091.html" target="_blank" class="gray">2016税务师考试报名时间及入口汇总</a></li>
+                  <li><a title="乐税发票查验上线 发票查验更简单" href="info/zx16100030.html" target="_blank" class="gray">乐税发票查验上线 发票查验更简单</a></li>
+                  <li><a title="2016税务师考试税考特训营火热招生" href="info/zx1697001.html" target="_blank" class="gray">2016税务师考试税考特训营火热招生</a></li>
+                </ul>
+              </div>
+              <div class="px-list abs2 hide">
+                <b>
+                  <a class="dop_gd" style="position:absolute;top:-25px;right:10px;" href="http://www.leshui365.com/show/active/" target="_blank"></a>
+                </b>
+                <ul id="lsgglist">
+                  <li><a title="你写税考理由，我送千元资料!" href="info/zx16148008.html" target="_blank" class="gray">你写税考理由，我送千元资料!</a></li>
+                  <li><a title="“名师支招：轻松拿下税务师”2015税考考前答疑活动正式开始" href="info/ZX16900000048004.html" target="_blank" class="gray">“名师支招：轻松拿下税务师”2015税考考前答..</a></li>
+                  <li><a title="首届“乐税杯”税考心得分享有奖征文" href="info/ZX16900000048003.html" target="_blank" class="gray">首届“乐税杯”税考心得分享有奖征文</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="texDemand divHover">
+            <p class="sy_csxq_title">
+              <span><a href="demand/" target="_blank" style="background:none;padding:0;color:#24313c;">财税需求</a></span>
+              <a href="demand/" target="_blank" style="text-decoration:none" id="csxq">更多</a>
+            </p>
+            <ul class="px-list1" id="cwxqlist">
+              <li><a target="_blank" href="demand/XQSQ16900000048001-000000000005.html" class="gray">首都医科大学附属北京友谊医院2017-2..</a></li>
+              <li><a target="_blank" href="demand/XQSQ16900000047006-000000000005.html" class="gray">永平县审计局招聘参与政府投资建设项目审计..</a></li>
+              <li><a target="_blank" href="demand/XQSQ16900000047005-000000000005.html" class="gray">福建省财政厅遴选中介机构参与资产清查专项..</a></li>
+              <li><a target="_blank" href="demand/XQSQ16900000047004-000000000005.html" class="gray">中山市财政局大涌分局中山市大涌镇审计服务..</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="dop_container centerBox">
+      <div class="jpk_tmys1 divHover">
+        <div class="djt-sy-list-title">
+          <h3>财税讲堂
+          <b><a href="http://www.leshui365.com/study/" target="_blank" class="dop_gd"></a></b>
+          </h3>
+        </div>
+        <ul class="djt-sy-body-list">
+          <li>
+            <a href="http://www.leshui365.com/study/sp1652001.html" target="_blank" class="djt-sy-list-a">
+            <img src="static/images/cs2.jpg" width="210" height="118">
+              <h3>建筑业“营改增”落地实施方案（上） </h3>
+            </a>
+          </li>
+          <li>
+            <a href="http://www.leshui365.com/study/sp1652002.html" target="_blank" class="djt-sy-list-a">
+              <img src="static/images/cs1.jpg" width="210" height="118">
+              <h3>建筑业“营改增”落地实施方案（下）</h3>
+            </a>
+          </li>
+          <li>
+            <a href="http://www.leshui365.com/study/f1014/" target="_blank" class="djt-sy-list-a">
+              <img src="static/images/mjjy1.jpg" width="210" height="118">
+              <h3>明基讲堂-会计辅导课程</h3>
+            </a>
+          </li>
+          <li>
+            <a href="http://www.leshui365.com/study/sf1016/" target="_blank" class="djt-sy-list-a">
+              <img src="static/images/xhsw.jpg" width="210" height="118">
+              <h3>新华税务-营改增难点解答 </h3>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="jpk_tmys1 divHover">
+        <div class="djt-sy-list-title">
+          <h3>财税图书
+            <b><a href="http://www.leshui365.com/exam/book/" target="_blank" class="dop_gd"></a></b>
+          </h3>
+        </div>
+        <ul class="ksfw_xj_ksbm_xq2_ksfwbebottom">
+          <li>
+            <a href="http://www.leshui365.com/exam/book/PTJC15900000000006.html " class="ksfwbebottom_img" target="_blank"><img src="static/images/sf1.png" height="214" width="151">
+            </a>
+            <a href="http://www.leshui365.com/exam/book/PTJC15900000000006.html " class="ksfwbebottom_img1 gray" style="height:37px;" target="_blank">2016年全国税务师职业资格考试教材税法一（包邮）
+            </a>
+            <p class="swskx-jqgw"><span>¥49.40</span><span class="oldMoney">¥52.00&nbsp;</span>
+            </p>
+          </li>
+          <li>
+            <a href="http://www.leshui365.com/exam/book/PTJC15900000000007.html" class="ksfwbebottom_img" target="_blank"><img src="static/images/sf2.png" height="214" width="151">
+            </a>
+            <a href="http://www.leshui365.com/exam/book/PTJC15900000000007.html" class="ksfwbebottom_img1 gray" style="height:37px;" target="_blank">2016年全国税务师职业资格考试税法二（包邮）
+            </a>
+            <p class="swskx-jqgw"><span>¥53.20&nbsp;</span><span class="oldMoney">¥56.00&nbsp;</span>
+            </p>
+          </li>
+          <li>
+            <a href="http://www.leshui365.com/exam/book/PTJC15900000000008.html" class="ksfwbebottom_img" target="_blank"><img src="static/images/sf3.png" height="214" width="151">
+            </a>
+            <a href="http://www.leshui365.com/exam/book/PTJC15900000000008.html" class="ksfwbebottom_img1 gray" style="height:37px;" target="_blank">2016年全国税务师职业资格考试涉税服务实务（包邮）
+            </a>
+            <p class="swskx-jqgw"><span>¥62.70&nbsp;</span><span class="oldMoney">¥66.00&nbsp;</span>
+            </p>
+          </li>
+          <li>
+            <a href="http://www.leshui365.com/exam/book/PTJC15900000000009.html" class="ksfwbebottom_img" target="_blank"><img src="static/images/sf4.png" height="214" width="151">
+            </a>
+            <a href="http://www.leshui365.com/exam/book/PTJC15900000000009.html" class="ksfwbebottom_img1 gray" style="height:37px;" target="_blank">2016年全国税务师职业资格考试涉税服务相关法律（包邮）
+            </a>
+            <p class="swskx-jqgw"><span>¥66.50&nbsp;</span><span class="oldMoney">¥70.00&nbsp;</span>
+            </p>
+          </li>
+          <li>
+            <a href="http://www.leshui365.com/exam/book/PTJC15900000000010.html" class="ksfwbebottom_img" target="_blank"><img src="static/images/sf5.png" height="214" width="151">
+            </a>
+            <a href="http://www.leshui365.com/exam/book/PTJC15900000000010.html" class="ksfwbebottom_img1 gray" style="height:37px;" target="_blank">2016年全国税务师职业资格考试财务与会计（包邮）
+            </a>
+            <p class="swskx-jqgw"><span>¥71.25&nbsp;</span><span class="oldMoney">¥75.00&nbsp;</span>
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="sy_container centerBox">
+      <div class="sy_address_dz">
+        <div class="prev_list">
+          <div class="dq">
+            <span class="qg_ys" id="qg"><a data-value="all" id="all0" class="">全国</a> </span>
+            <div class="qieh_houver1">
+              <ul>
+                <li><a data-value="110000">北京</a></li>
+                <li><a data-value="310000">上海</a></li>
+                <li><a data-value="120000">天津</a></li>
+                <li><a data-value="500000">重庆</a></li>
+                <li><a data-value="440300">深圳</a></li>
+                <li><a data-value="210200">大连</a></li>
+                <li><a data-value="340000">安徽</a></li>
+                <li><a data-value="350000">福建</a></li>
+                <li><a data-value="350200">厦门</a></li>
+                <li><a data-value="620000">甘肃</a></li>
+                <li><a data-value="440000">广东</a></li>
+                <li><a data-value="450000">广西</a></li>
+                <li><a data-value="520000">贵州</a></li>
+                <li><a data-value="460000">海南</a></li>
+                <li><a data-value="130000">河北</a></li>
+                <li><a data-value="410000">河南</a></li>
+                <li><a data-value="230000">黑龙江</a></li>
+                <li><a data-value="420000">湖北</a></li>
+                <li><a data-value="430000">湖南</a></li>
+                <li><a data-value="320000">江苏</a></li>
+                <li><a data-value="360000">江西</a></li>
+                <li><a data-value="220000">吉林</a></li>
+                <li><a data-value="210000">辽宁</a></li>
+                <li><a data-value="150000">内蒙古</a></li>
+                <li><a data-value="640000">宁夏</a></li>
+                <li><a data-value="630000">青海</a></li>
+                <li><a data-value="370000">山东</a></li>
+                <li><a data-value="140000">山西</a></li>
+                <li><a data-value="610000">陕西</a></li>
+                <li><a data-value="510000">四川</a></li>
+                <li><a data-value="540000">西藏</a></li>
+                <li><a data-value="650000">新疆</a></li>
+                <li><a data-value="530000">云南</a></li>
+                <li><a data-value="330000">浙江</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="dq_btn">
+            <a class="u_btnLeft"></a>
+            <a class="btnRight"></a>
+          </div>
+        </div>
+      </div>
+      <div class="sws_cbox">
+        <div class="sws_cbox1" title="热门事务所">
+          <div class="sws_cbox1_left divHover">
+            <div class="dop_sws_cbox1_left_title">
+              <p>
+                <span>热门事务所</span>
+                <b><a href="office/" class="dop_gd" target="_blank"></a></b>
+              </p>
+            </div>
+            <div class="fwlx_lbst">
+              <div class="fwlx_left">
+                <ul class="azlx_list_fw" id="rmswslist1">
+                  <li><a href="s4769/" target="_blank" class="gray" title="厦门红大税务师事务所有限公司">厦门红大税务师事务所有限公司</a></li>
+                  <li><a href="s6375/" target="_blank" class="gray" title="厦门国之源税务师事务所有限公司">厦门国之源税务师事务所有限公司</a></li><li><a href="s2762/" target="_blank" class="gray" title="厦门欣隆源税务师事务所有限公司">厦门欣隆源税务师事务所有限公司</a></li>
+                  <li><a href="s2752/" target="_blank" class="gray" title="厦门元天税务师事务所有限责任公司">厦门元天税务师事务所有限责任公司</a></li>
+                  <li><a href="s6607/" target="_blank" class="gray" title="厦门瑞信汇智税务师事务所有限公司">厦门瑞信汇智税务师事务所有限公司</a></li><li><a href="s6478/" target="_blank" class="gray" title="中嘉美誉（厦门）税务师事务所有限公司">中嘉美誉（厦门）税务师事务所有限公司</a></li>
+                  <li><a href="s6311/" target="_blank" class="gray" title="厦门中汇瑞丰税务师事务所有限公司">厦门中汇瑞丰税务师事务所有限公司</a></li>
+                  <li><a href="s6274/" target="_blank" class="gray" title="厦门业嘉税务师事务所有限公司">厦门业嘉税务师事务所有限公司</a></li>
+
+                </ul>
+              </div>
+              <div class="fwlx_right">
+                <ul class="azlx_list_fw1" id="rmswslist2">
+                  <li><a href="s2738/" target="_blank" class="gray" title="厦门润川税务师事务所有限公司">厦门润川税务师事务所有限公司</a></li><li><a href="s5334/" target="_blank" class="gray" title="厦门市润勤税务师事务所有限公司">厦门市润勤税务师事务所有限公司</a></li><li><a href="s2755/" target="_blank" class="gray" title="厦门顺正税务师事务所有限公司">厦门顺正税务师事务所有限公司</a></li><li><a href="s2747/" target="_blank" class="gray" title="厦门中税税务师事务所有限公司">厦门中税税务师事务所有限公司</a></li><li><a href="s6537/" target="_blank" class="gray" title="厦门七书税务师事务所有限公司">厦门七书税务师事务所有限公司</a></li><li><a href="s6346/" target="_blank" class="gray" title="厦门和祺税务师事务所有限公司">厦门和祺税务师事务所有限公司</a></li><li><a href="s6282/" target="_blank" class="gray" title="厦门精柯税务师事务所有限公司">厦门精柯税务师事务所有限公司</a></li><li><a href="s6223/" target="_blank" class="gray" title="厦门市百证税务师事务所有限公司">厦门市百证税务师事务所有限公司</a></li>
+
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="sws_cbox1_right divHover">
+            <div class="dop_sws_cbox1_left_title">
+              <p>
+                <span>推荐事务所</span><b><a href="office/" class="dop_gd" target="_blank"></a> </b>
+              </p>
+            </div>
+            <div class="tjsws_tj" id="tjswsswslist">
+              <div class="sws-list default"><div class="swsmc"><a class='gray' href="s4769/" target="_blank">厦门红大税务师事务所有限公司</a></div><div class="hide"><a class='gray' href="s4769/" target="_blank"><img src="http://file.leshui365.com/LS/OLDQGYH0000124756726/TX/TX-OLDQGYH0000124756726.jpg?Expires=16756646400&amp;OSSAccessKeyId=Vo8JZHGxOUgtszc6&amp;Signature=jtd3HDSygSHCfsLYLm21UEDn524%3D&amp;id=6686"></a></div></div><div class="sws-list"><div class="swsmc"><a class='gray' href="s6607/" target="_blank">厦门瑞信汇智税务师事务所有限公..</a></div><div class="hide"><a class='gray' href="s6607/" target="_blank"><img src="http://file.leshui365.com/LS/YH15900000105549/TX/TX-YH15900000105549.jpg?Expires=16756646400&amp;OSSAccessKeyId=Vo8JZHGxOUgtszc6&amp;Signature=spHM8HfUORrO0WESKsoArgV%2B4BY%3D&amp;id=6055"></a></div></div><div class="sws-list"><div class="swsmc"><a class='gray' href="s6544/" target="_blank">厦门垣森税务师事务所有限公司</a></div><div class="hide"><a class='gray' href="s6544/" target="_blank"><img src="http://file.leshui365.com/LS/OLDQGYH0000146935752/TX/TX-OLDQGYH0000146935752.jpg?Expires=16756646400&amp;OSSAccessKeyId=Vo8JZHGxOUgtszc6&amp;Signature=kYstmEW2ad9Zb5O2uQrFNiSurdA%3D&amp;id=8425"></a></div></div><div class="sws-list"><div class="swsmc"><a class='gray' href="s6537/" target="_blank">厦门七书税务师事务所有限公司</a></div><div class="hide"><a class='gray' href="s6537/" target="_blank"><img src="http://file.leshui365.com/LS/OLDQGYH0000146923766/TX/TX-OLDQGYH0000146923766.jpg?Expires=16756646400&amp;OSSAccessKeyId=Vo8JZHGxOUgtszc6&amp;Signature=AI9pSV3YCmO6zPqMWc1tWjIES%2B8%3D&amp;id=8252"></a></div></div><div class="sws-list"><div class="swsmc"><a class='gray' href="s6478/" target="_blank">中嘉美誉（厦门）税务师事务所有..</a></div><div class="hide"><a class='gray' href="s6478/" target="_blank"><img src="http://file.leshui365.com/LS/OLDQGYH0000146832451/TX/TX-OLDQGYH0000146832451.jpg?Expires=16756646400&amp;OSSAccessKeyId=Vo8JZHGxOUgtszc6&amp;Signature=mdNgxfmhOoVRDansEJC%2FDiPFFFs%3D&amp;id=5622"></a></div></div>
+            </div>
+          </div>
+        </div>
+        <div class="sws_cbox2" title='热门税务师'>
+          <div class="sws_cbox1_left divHover">
+            <div class="dop_sws_cbox1_left_title">
+              <p>
+                <span>热门税务师</span><b><a href="cta/" target="_blank" class="dop_gd"></a> </b>
+              </p>
+            </div>
+            <div class="fwlx_lbst swrqb_sgcom" id="swsrqblist">
+              <div class="sy_swrqb_list"><div class="sy_swrqb_tx"><a class='gray' href="c30942/" target="_blank"><img src="http://file.leshui365.com/LS/OLDQGYH0000124818433/TX/TX-OLDQGYH0000124818433.jpg?Expires=16756646400&amp;OSSAccessKeyId=Vo8JZHGxOUgtszc6&amp;Signature=AlIvSNUB%2Bw8Gu39nzeS09GA%2BE54%3D&amp;id=6574" alt="陈升"></a></div><div class="sy_swrqb_js"><p class="sy_swrqb_xm"><a class='gray' href="c30942/" target="_blank">陈升</a></p><p class="sy_swrqb_xm1" title="厦门润川税务师事务所有限公司">厦门润川税务师事务所有限公司</p> <p><a onclick="javascript:void(0);" class="sy_zan_top1_xqjj" style="margin-top:0;"> 人气： <span>15 </span></a><a onclick="javascript:void(0);" class="sy_zan_top2_xqjj" style="margin-top:0;">关注： <span>4</span></a></p>  </div></div><div class="sy_swrqb_list"><div class="sy_swrqb_tx"><a class='gray' href="c30936/" target="_blank"><img src="http://file.leshui365.com/LS/OLDQGYH0000124818427/TX/TX-OLDQGYH0000124818427.jpg?Expires=16756646400&amp;OSSAccessKeyId=Vo8JZHGxOUgtszc6&amp;Signature=vM5W0FGa0fpE%2FNLEZIyoid1%2B7cE%3D&amp;id=9471" alt="郭光华"></a></div><div class="sy_swrqb_js"><p class="sy_swrqb_xm"><a class='gray' href="c30936/" target="_blank">郭光华</a></p><p class="sy_swrqb_xm1" title="厦门润川税务师事务所有限公司">厦门润川税务师事务所有限公司</p> <p><a onclick="javascript:void(0);" class="sy_zan_top1_xqjj" style="margin-top:0;"> 人气： <span>6 </span></a><a onclick="javascript:void(0);" class="sy_zan_top2_xqjj" style="margin-top:0;">关注： <span>4</span></a></p> </div></div><div class="sy_swrqb_list"><div class="sy_swrqb_tx"><a class='gray' href="c30937/" target="_blank"><img src="http://file.leshui365.com/LS/OLDQGYH0000124818428/TX/TX-OLDQGYH0000124818428.jpg?Expires=16756646400&amp;OSSAccessKeyId=Vo8JZHGxOUgtszc6&amp;Signature=T15qDmV7kcygPSy9X%2FnOwGe8u0U%3D&amp;id=7147" alt="庄佳"></a></div><div class="sy_swrqb_js"><p class="sy_swrqb_xm"><a class='gray' href="c30937/" target="_blank">庄佳</a></p><p class="sy_swrqb_xm1" title="厦门润川税务师事务所有限公司">厦门润川税务师事务所有限公司</p> <p><a onclick="javascript:void(0);" class="sy_zan_top1_xqjj" style="margin-top:0;"> 人气： <span>24 </span></a><a onclick="javascript:void(0);" class="sy_zan_top2_xqjj" style="margin-top:0;">关注： <span>5</span></a></p>  </div></div><div class="sy_swrqb_list"><div class="sy_swrqb_tx"><a class='gray' href="c22496/" target="_blank"><img src="http://file.leshui365.com/LS/OLDQGYH0000124702232/TX/TX-OLDQGYH0000124702232.jpg?Expires=16756646400&amp;OSSAccessKeyId=Vo8JZHGxOUgtszc6&amp;Signature=7KDvts8hI%2F6Vv1NVZ%2BtICUP2MU8%3D&amp;id=5572" alt="李润冬"></a></div><div class="sy_swrqb_js"><p class="sy_swrqb_xm"><a class='gray' href="c22496/" target="_blank">李润冬</a></p><p class="sy_swrqb_xm1" title="厦门顺正税务师事务所有限公司">厦门顺正税务师事务所有限公司</p> <p><a onclick="javascript:void(0);" class="sy_zan_top1_xqjj" style="margin-top:0;"> 人气： <span>25 </span></a><a onclick="javascript:void(0);" class="sy_zan_top2_xqjj" style="margin-top:0;">关注： <span>6</span></a></p>  </div></div><div class="sy_swrqb_list"><div class="sy_swrqb_tx"><a class='gray' href="c22761/" target="_blank"><img src="http://file.leshui365.com/LS/OLDQGYH0000124704557/TX/TX-OLDQGYH0000124704557.jpg?Expires=16756646400&amp;OSSAccessKeyId=Vo8JZHGxOUgtszc6&amp;Signature=szKkRoVltGHn0wqvg8zZQBjAww0%3D&amp;id=1633" alt="黄兴全"></a></div><div class="sy_swrqb_js"><p class="sy_swrqb_xm"><a class='gray' href="c22761/" target="_blank">黄兴全</a></p><p class="sy_swrqb_xm1" title="厦门顺正税务师事务所有限公司">厦门顺正税务师事务所有限公司</p> <p><a onclick="javascript:void(0);" class="sy_zan_top1_xqjj" style="margin-top:0;"> 人气： <span>18 </span></a><a onclick="javascript:void(0);" class="sy_zan_top2_xqjj" style="margin-top:0;">关注： <span>7</span></a></p>  </div></div><div class="sy_swrqb_list"><div class="sy_swrqb_tx"><a class='gray' href="c68155/" target="_blank"><img src="http://file.leshui365.com/LS/OLDQGYH0000146359752/TX/TX-OLDQGYH0000146359752.jpg?Expires=16756646400&amp;OSSAccessKeyId=Vo8JZHGxOUgtszc6&amp;Signature=4%2Bp5JVw2A99su1AgogTMsj%2Fl%2B7E%3D&amp;id=5396" alt="张雪玲"></a></div><div class="sy_swrqb_js"><p class="sy_swrqb_xm"><a class='gray' href="c68155/" target="_blank">张雪玲</a></p><p class="sy_swrqb_xm1" title="厦门润川税务师事务所有限公司">厦门润川税务师事务所有限公司</p> <p><a onclick="javascript:void(0);" class="sy_zan_top1_xqjj" style="margin-top:0;"> 人气： <span>5 </span></a><a onclick="javascript:void(0);" class="sy_zan_top2_xqjj" style="margin-top:0;">关注： <span>3</span></a></p> </div></div><div class="sy_swrqb_list"><div class="sy_swrqb_tx"><a class='gray' href="c30944/" target="_blank"><img src="http://file.leshui365.com/LS/OLDQGYH0000124818435/TX/TX-OLDQGYH0000124818435.jpg?Expires=16756646400&amp;OSSAccessKeyId=Vo8JZHGxOUgtszc6&amp;Signature=OTdajkk6Pn0%2FIKBP2sDwFSpK1u8%3D&amp;id=1667" alt="王晓莉"></a></div><div class="sy_swrqb_js"><p class="sy_swrqb_xm"><a class='gray' href="c30944/" target="_blank">王晓莉</a></p><p class="sy_swrqb_xm1" title="厦门润川税务师事务所有限公司">厦门润川税务师事务所有限公司</p> <p><a onclick="javascript:void(0);" class="sy_zan_top1_xqjj" style="margin-top:0;"> 人气： <span>4 </span></a><a onclick="javascript:void(0);" class="sy_zan_top2_xqjj" style="margin-top:0;">关注： <span>3</span></a></p> </div></div><div class="sy_swrqb_list"><div class="sy_swrqb_tx"><a class='gray' href="c64061/" target="_blank"><img src="http://file.leshui365.com/LS/OLDQGYH0000143546680/TX/TX-OLDQGYH0000143546680.jpg?Expires=16756646400&amp;OSSAccessKeyId=Vo8JZHGxOUgtszc6&amp;Signature=IPMS%2BCLNlyd9hbw4l3%2FGH9q5wLc%3D&amp;id=9632" alt="唐玉琴"></a></div><div class="sy_swrqb_js"><p class="sy_swrqb_xm"><a class='gray' href="c64061/" target="_blank">唐玉琴</a></p><p class="sy_swrqb_xm1" title="厦门润川税务师事务所有限公司">厦门润川税务师事务所有限公司</p> <p><a onclick="javascript:void(0);" class="sy_zan_top1_xqjj" style="margin-top:0;"> 人气： <span>4 </span></a><a onclick="javascript:void(0);" class="sy_zan_top2_xqjj" style="margin-top:0;">关注： <span>3</span></a></p> </div></div><div class="sy_swrqb_list"><div class="sy_swrqb_tx"><a href="c63336/" target="_blank"><img src="http://file.leshui365.com/LS/OLDQGYH0000141753609/TX/TX-OLDQGYH0000141753609.jpg?Expires=16756646400&amp;OSSAccessKeyId=Vo8JZHGxOUgtszc6&amp;Signature=DgLO2J1ppvEVVdmPiXOrQKYU14Y%3D&amp;id=3992" alt="游小福"></a></div><div class="sy_swrqb_js"><p class="sy_swrqb_xm"><a href="c63336/" target="_blank">游小福</a></p><p class="sy_swrqb_xm1" title="厦门市中韬华益税务师事务所有限公司">厦门市中韬华益税务师事务所有限公司</p> <p><a onclick="javascript:void(0);" class="sy_zan_top1_xqjj" style="margin-top:0;"> 人气： <span>3 </span></a><a onclick="javascript:void(0);" class="sy_zan_top2_xqjj" style="margin-top:0;">关注： <span>1</span></a></p> </div></div>
+            </div>
+          </div>  
+          <div class="sws_cbox1_right divHover">
+            <div class="dop_sws_cbox1_left_title">
+              <p>
+                <span>推荐税务师</span><b><a href="cta/" target="_blank" class="dop_gd"></a> </b>
+              </p>
+            </div>
+            <div id="myNiceCarousel" class="carousel slide" data-ride="carousel">
+              <!-- 圆点指示器 -->
+              <ol class="carousel-indicators lunb_xz1">
+                <li data-target="#myNiceCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myNiceCarousel" data-slide-to="1"></li>
+                <li data-target="#myNiceCarousel" data-slide-to="2"></li>
+                <li data-target="#myNiceCarousel" data-slide-to="3"></li>
+                <li data-target="#myNiceCarousel" data-slide-to="4"></li>
+              </ol>
+              <!-- 轮播项目 -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <ul class="tjsws_sy_list"><li><p class="sws_xm"><a class='gray' href="c23272/" target="_blank">林培霞</a></p><p class="sws_qymc">厦门红大税务师事务所有限公司</p><p class="sws_anli">案例：0个</p></li><li><p class="sws_xm"><a class='gray' href="c25575/" target="_blank">郑江龙</a></p><p class="sws_qymc">厦门天舜税务师事务所有限公司</p><p class="sws_anli">案例：0个</p></li><li><p class="sws_xm"><a class='gray' href="c25183/" target="_blank">郑义胜</a></p><p class="sws_qymc">北京永大税务师事务所有限公司厦门分公司</p><p class="sws_anli">案例：0个</p></li><li><p class="sws_xm"><a class='gray' href="c25182/" target="_blank">林雨仁</a></p><p class="sws_qymc">北京永大税务师事务所有限公司厦门分公司</p><p class="sws_anli">案例：0个</p></li></ul>
+                </div>
+                <div class="item">
+                  <ul class="tjsws_sy_list"><li><p class="sws_xm"><a class='gray' href="c25180/" target="_blank">郑炫</a></p><p class="sws_qymc">北京永大税务师事务所有限公司厦门分公司</p><p class="sws_anli">案例：0个</p></li><li><p class="sws_xm"><a class='gray' href="c25179/" target="_blank">罗娟娟</a></p><p class="sws_qymc">北京永大税务师事务所有限公司厦门分公司</p><p class="sws_anli">案例：0个</p></li><li><p class="sws_xm"><a class='gray' href="c24877/" target="_blank">黄从哲</a></p><p class="sws_qymc">久益华瑞（北京）税务师事务所有限公司厦门分公司</p><p class="sws_anli">案例：0个</p></li><li><p class="sws_xm"><a class='gray' href="c24854/" target="_blank">刘珲</a></p><p class="sws_qymc">泉州理税税务师事务所有限责任公司</p><p class="sws_anli">案例：0个</p></li></ul>
+                </div>
+                <div class="item">
+                  <ul class="tjsws_sy_list"><li><p class="sws_xm"><a class='gray' href="c24647/" target="_blank">戴少雄</a></p><p class="sws_qymc">厦门谌永税务师事务所有限公司</p><p class="sws_anli">案例：0个</p></li><li><p class="sws_xm"><a class='gray' href="c24639/" target="_blank">林娜萍</a></p><p class="sws_qymc">厦门谌永税务师事务所有限公司</p><p class="sws_anli">案例：0个</p></li><li><p class="sws_xm"><a class='gray' href="c24638/" target="_blank">王红艳</a></p><p class="sws_qymc">厦门谌永税务师事务所有限公司</p><p class="sws_anli">案例：0个</p></li><li><p class="sws_xm"><a class='gray' href="c24628/" target="_blank">周冬玲</a></p><p class="sws_qymc">立信税务师事务所有限公司厦门分所</p><p class="sws_anli">案例：0个</p></li></ul>
+                </div>
+                <div class="item">
+                  <ul class="tjsws_sy_list"><li><p class="sws_xm"><a class='gray' href="c24627/" target="_blank">阮锦燕</a></p><p class="sws_qymc">立信税务师事务所有限公司厦门分所</p><p class="sws_anli">案例：0个</p></li><li><p class="sws_xm"><a class='gray' href="c24624/" target="_blank">孔慧霞</a></p><p class="sws_qymc">立信税务师事务所有限公司厦门分所</p><p class="sws_anli">案例：0个</p></li><li><p class="sws_xm"><a class='gray' href="c24621/" target="_blank">熊必玉</a></p><p class="sws_qymc">厦门立勤税务师事务所有限公司</p><p class="sws_anli">案例：0个</p></li><li><p class="sws_xm"><a class='gray' href="c24620/" target="_blank">沈任波</a></p><p class="sws_qymc">厦门正誉税务师事务所有限公司</p><p class="sws_anli">案例：0个</p></li></ul>
+                </div>
+                <div class="item">
+                  <ul class="tjsws_sy_list"><li><p class="sws_xm"><a class='gray' href="c24619/" target="_blank">唐星云</a></p><p class="sws_qymc">厦门正誉税务师事务所有限公司</p><p class="sws_anli">案例：0个</p></li><li><p class="sws_xm"><a class='gray' href="c24637/" target="_blank">林荣标</a></p><p class="sws_qymc">厦门谌永税务师事务所有限公司</p><p class="sws_anli">案例：0个</p></li><li><p class="sws_xm"><a class='gray' href="c24636/" target="_blank">曾美妹</a></p><p class="sws_qymc">厦门业嘉税务师事务所有限公司</p><p class="sws_anli">案例：0个</p></li><li><p class="sws_xm"><a class='gray' href="c24634/" target="_blank">巫扬华</a></p><p class="sws_qymc">厦门业嘉税务师事务所有限公司</p><p class="sws_anli">案例：0个</p></li></ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sws_cbox3">
+
+          <div class="sws_cbox1_left divHover">
+            <div class="dop_sws_cbox1_left_title">
+              <div class="cawf">
+                <span>财税服务</span>
+                <div class="csfw-xgyl" id="fwlxicon_list">
+                  <a class="bt_ls">按类型：</a> <a data-value="L1"> 涉税鉴证 </a> <a data-value="L2">税务代理</a> <a data-value="L3">税咨询税 </a> <a class="bt_ls">按对象：</a><a data-value="D6">上市公司 </a> <a data-value="D10">中小企业 </a> <a data-value="D13">其他企业</a>
+                </div>
+                <b><a href="services/" target="_blank" class="dop_gd"></a> </b>
+              </div>
+              <div>
+                <div class="csfw_k_box">
+                  <div id="csfw_ad_left"><img src="http://ubmcmm.baidustatic.com/media/v1/0f0000niWAumJVomd7u1yf.jpg" title="" alt="" border="0" height="85" width="340"></div>
+                  <ul id="csfwlist1">
+                    <li><a class='gray' href="s2761/services/fw100560/" target="_blank"><span>●</span>担任常年税务、会计顾问，提供会计、税务咨询服..</a><b>08-18</b></li><li><a class='gray' href="s5349/services/fw100417/" target="_blank"><span>●</span>企业所得税汇算清缴-福建兴成税务师事务所有限..</a><b>08-17</b></li><li><a class='gray' href="s5349/services/fw100540/" target="_blank"><span>●</span>常年税务顾问-福建兴成税务师事务所有限公司</a><b>08-18</b></li><li><a class='gray' href="s2755/services/fw100768/" target="_blank"><span>●</span>财税咨询-厦门顺正税务师事务所有限公司</a><b>08-21</b></li><li><a class='gray' href="s2761/services/fw100561/" target="_blank"><span>●</span>代办减税、退税、免税事宜-厦门晟源税务师事务..</a><b>08-18</b></li><li><a class='gray' href="s2754/services/fw110534/" target="_blank"><span>●</span>厦门税务咨询-厦门加捷正大税务师事务所有限责..</a><b>09-21</b></li>
+                  </ul>
+                </div>
+                <div class="csfw_k_box pull_right">
+                  <div id="csfw_ad_right"><img src="http://ubmcmm.baidustatic.com/media/v1/0f0002V0V_SZ_9Iujacbcf.jpg" title="" alt="" border="0" height="85" width="340"></div>
+                  <ul id="csfwlist2">
+                    <li><a class='gray' href="s5349/services/fw100416/" target="_blank"><span>●</span>土地增值税清算鉴证-福建兴成税务师事务所有限..</a><b>08-17</b></li><li><a class='gray' href="s2761/services/fw100559/" target="_blank"><span>●</span>代办一般纳税人认证，代理领购发票或申请自印发..</a><b>08-18</b></li><li><a class='gray' href="s2755/services/fw100768/" target="_blank"><span>●</span>财税咨询-厦门顺正税务师事务所有限公司</a><b>08-21</b></li><li><a class='gray' href="s5349/services/fw100419/" target="_blank"><span>●</span>企业财产损失所得税税前扣除-福建兴成税务师事..</a><b>08-18</b></li><li><a class='gray' href="s2761/services/fw100560/" target="_blank"><span>●</span>担任常年税务、会计顾问，提供会计、税务咨询服..</a><b>08-18</b></li><li><a class='gray' href="s2754/services/fw110534/" target="_blank"><span>●</span>厦门税务咨询-厦门加捷正大税务师事务所有限责..</a><b>09-21</b></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="sws_cbox1_right divHover">
+            <div class="dop_sws_cbox1_left_title">
+              <p>
+                <span>最新培训</span><b><a href="train/" target="_blank" class="dop_gd"></a> </b>
+              </p>
+            </div>
+            <div class="zuipx_list" id="zxpxlist">
+               <div class="sq_xzwd_jpwd_list"> <div class="jpwd_wen"><a class='gray' href="s1196/train/px101423/" target="_blank">营改增专题--建筑业、房地..</a></div><div class="jpwd_da"><p> 开课时间：2015-10-10</p><p>北京永大税务师事务所有限公..</p></div> </div> <div class="sq_xzwd_jpwd_list"> <div class="jpwd_wen"><a class='gray' href="s1196/train/px101418/" target="_blank">资本市场企业的财务税务管理..</a></div><div class="jpwd_da"><p> 开课时间：2015-10-07</p><p>北京永大税务师事务所有限公..</p></div> </div> <div class="sq_xzwd_jpwd_list"> <div class="jpwd_wen"><a class='gray' href="s1196/train/px101419/" target="_blank">资本市场企业的财务税务管理..</a></div><div class="jpwd_da"><p> 开课时间：2015-10-07</p><p>北京永大税务师事务所有限公..</p></div> </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div id="yygc_square"></div>
+    <div id="ad02" class="ad">
+      <a>
+        <img src="static/images/close.gif" width="40" height="11" border="0" style="cursor:pointer;">
+      </a>
+      <div></div>
+    </div>
+    <div id="fgjdzt_box"></div>
+    <div id="sq_xzwd" class="centerBox">
+    
+      <div class="dop_sws_cbox1_left_title">
+        <p>
+          <span>社区</span><b><a href="http://sns.leshui365.com/" target="_blank" class="dop_gd"></a> </b>
+        </p>
+      </div>
+      <div class="sq_xzwd_box">
+        <div class="sq_xzwd_box_left">
+          <p class="dop_dkgl_title">大咖观点</p>
+          <div class="tjsws_tj_sq" id="dkgdlist">
+            <div class="sws-list default"><div class="swsmc"><a class='gray' href="http://sns.leshui365.com/article/392" target="_blank"><span>●</span>“小会计，大差异”之“委托代销”</a><b>08-11</b></div><div class="hide"><a class='gray' href="http://sns.leshui365.com/article/392" target="_blank"><img src="http://file.leshui365.com/LS/PHB16900000536003/TB/TB-PHB1690000053600320160811162811.jpg?Expires=16756646400&amp;OSSAccessKeyId=Vo8JZHGxOUgtszc6&amp;Signature=u9FL%2FOerefw2vgUWAccYtKERDP4%3D&amp;id=5432"></a></div> </div><div class="sws-list"><div class="swsmc"><a class='gray' href="http://sns.leshui365.com/article/393" target="_blank"><span>●</span>预缴环节的增值税会计核算</a><b>08-11</b></div><div class="hide"><a class='gray' href="http://sns.leshui365.com/article/393" target="_blank"><img src="http://file.leshui365.com/LS/PHB16900000536002/TB/TB-PHB1690000053600220160811162739.jpg?Expires=16756646400&amp;OSSAccessKeyId=Vo8JZHGxOUgtszc6&amp;Signature=qYV0tL%2BHkudg3sbV8J79nRKKA6c%3D&amp;id=1358"></a></div> </div><div class="sws-list"><div class="swsmc"><a class='gray' href="http://sns.leshui365.com/article/394" target="_blank"><span>●</span>如何避免员工制服被认定为福利费？</a><b>08-11</b></div><div class="hide"><a class='gray' href="http://sns.leshui365.com/article/394" target="_blank"><img src="http://file.leshui365.com/LS/PHB16900000536001/TB/TB-PHB1690000053600120160811162717.jpg?Expires=16756646400&amp;OSSAccessKeyId=Vo8JZHGxOUgtszc6&amp;Signature=qEdWyvsR758xnUO2I0sWAcKrcn8%3D&amp;id=5246"></a></div> </div><div class="sws-list"><div class="swsmc"><a class='gray' href="http://sns.leshui365.com/article/382" target="_blank"><span>●</span>三证合一？五证合一？？关键问题看这里！</a><b>08-08</b></div><div class="hide"><a class='gray' href="http://sns.leshui365.com/article/382" target="_blank"><img src="http://file.leshui365.com/LS/PHB16900000535001/TB/TB-PHB1690000053500120160808152952.jpg?Expires=16756646400&amp;OSSAccessKeyId=Vo8JZHGxOUgtszc6&amp;Signature=i2v3Gt0d80dku%2BQ7O2xtegaWLAg%3D&amp;id=53"></a></div> </div><div class="sws-list"><div class="swsmc"><a class='gray' href="http://sns.leshui365.com/article/379" target="_blank"><span>●</span>建筑业小规模纳税人签订合同需要留个心眼</a><b>08-08</b></div><div class="hide"><a class='gray' href="http://sns.leshui365.com/article/379" target="_blank"><img src="http://file.leshui365.com/LS/PHB16900000535002/TB/TB-PHB1690000053500220160808153025.jpg?Expires=16756646400&amp;OSSAccessKeyId=Vo8JZHGxOUgtszc6&amp;Signature=pitxvYaueItIfP0rjP%2F%2BO477zRE%3D&amp;id=877"></a></div> </div><div class="sws-list hgcq"><div class="swsmc"><a class='gray' href="http://sns.leshui365.com/article/387" target="_blank"><span>●</span>商场向企业卖烟酒能不能开专票？</a><b>08-05</b></div><div class="hide"><a class='gray' href="http://sns.leshui365.com/article/387" target="_blank"><img src="http://file.leshui365.com/LS/PHB16900000534001/TB/TB-PHB1690000053400120160805143416.jpg?Expires=16756646400&amp;OSSAccessKeyId=Vo8JZHGxOUgtszc6&amp;Signature=cnNEcB5SQUPc28ujH7DfRqCkNRc%3D&amp;id=1379"></a></div> </div><div class="sws-list"><div class="swsmc"><a class='gray' href="http://sns.leshui365.com/article/386" target="_blank"><span>●</span>“小会计，大差异”之“平销返利”</a><b>08-05</b></div><div class="hide"><a class='gray' href="http://sns.leshui365.com/article/386" target="_blank"><img src="http://file.leshui365.com/LS/PHB16900000534002/TB/TB-PHB1690000053400220160805143458.jpg?Expires=16756646400&amp;OSSAccessKeyId=Vo8JZHGxOUgtszc6&amp;Signature=1%2FQmqhxCMHb5e3hS3pqQ5eJ42Ws%3D&amp;id=8951"></a></div> </div>
+
+          </div>
+        </div>
+
+        <div class="sq_xzwd_box_middle">
+          <p class="dop_dkgl_title">纳税故事</p>
+          <p class="dop_dkgl_nr">发生在你我他身边的纳税故事，或似曾相识，或受益匪浅。</p>
+          <div class="nsrgs_box" style="position:relative">
+            <ul id="nsgslist">
+              <li style="width: 155px;"><a href="http://sns.leshui365.com/article/29" target="_blank"><img src="http://file.leshui365.com/LS/PHB15900000555045/TB/TB-PHB1590000055504520151229120852.jpg?Expires=16756646400&amp;OSSAccessKeyId=Vo8JZHGxOUgtszc6&amp;Signature=2msQ%2F2yudlAiU4zhrNEJ6pYpFqw%3D&amp;id=3730"><div class="jxxq" style="width: 162px; height: 77px; left: 73px; top: 0px; padding-left: 20px; background: url(&quot;static/images/jtfx1.png&quot;);">增强个人纳税意识,防范企业猫腻。张先生于2006年到单位……</div></a></li><li style="width: 77px;"><a href="http://sns.leshui365.com/article/26" target="_blank"><img src="http://file.leshui365.com/LS/PHB15900000555044/TB/TB-PHB1590000055504420151229120804.jpg?Expires=16756646400&amp;OSSAccessKeyId=Vo8JZHGxOUgtszc6&amp;Signature=CCJ%2Bx64XlpuoWmnLSdRBza%2FCnkk%3D&amp;id=3091"><div class="jxxq" style="width: 162px; height: 77px; left: 1px; top: 0px; background: url(&quot;static/images/jtfx.png&quot;);">我为诚信纳税代言。18号是9月申报期的最后一天，湘乡地税……</div></a></li><li style="width: 77px;"><a href="http://sns.leshui365.com/article/20" target="_blank"><img src="http://file.leshui365.com/LS/PHB15900000555039/TB/TB-PHB1590000055503920151229120100.jpg?Expires=16756646400&amp;OSSAccessKeyId=Vo8JZHGxOUgtszc6&amp;Signature=W3OxibnWNOsb6JBLlDjLp60%2B6rg%3D&amp;id=3373"><div class="jxxq" style="width: 162px; height: 77px; left: 80px; top: 0px; background: url(&quot;static/images/jtfx.png&quot;);">未进行实质性开发的土地也需及时缴纳城镇土地使用税……</div></a></li><li style="width: 77px;"><a href="http://sns.leshui365.com/article/24" target="_blank"><img src="http://file.leshui365.com/LS/PHB15900000555040/TB/TB-PHB1590000055504020151229120528.jpg?Expires=16756646400&amp;OSSAccessKeyId=Vo8JZHGxOUgtszc6&amp;Signature=bhvZyonJasYTEaORaZNjOqJm2lU%3D&amp;id=891"><div class="jxxq" style="width: 162px; height: 77px; left: 70px; top: 78px; padding-left: 20px; background: url(&quot;static/images/jtfx1.png&quot;);">雇主为雇员负担个税，单独列支为管理费不准允税前扣除……</div></a></li><li style="width: 155px;"><a href="http://sns.leshui365.com/article/32 " target="_blank"><img src="http://file.leshui365.com/LS/PHB15900000555046/TB/TB-PHB1590000055504620151229120924.jpg?Expires=16756646400&amp;OSSAccessKeyId=Vo8JZHGxOUgtszc6&amp;Signature=Yz8wdeeBbqdwS2dTD0kHe1cT8ic%3D&amp;id=6955"><div class="jxxq" style="width: 162px; height: 77px; left: 1px; top: 78px; background: url(&quot;static/images/jtfx.png&quot;);">出租房屋，房屋的附属设备和配套设施勿忘纳税。我单位在辖区……</div></a></li><li style="width: 77px;"><a href="http://sns.leshui365.com/article/31 " target="_blank"><img src="http://file.leshui365.com/LS/PHB15900000555047/TB/TB-PHB1590000055504720151229120947.jpg?Expires=16756646400&amp;OSSAccessKeyId=Vo8JZHGxOUgtszc6&amp;Signature=%2FLp3DhYjRESda0Olv%2Bq4JHgIxRw%3D&amp;id=7343"><div class="jxxq" style="width: 162px; height: 77px; left: 78px; top: 78px; background: url(&quot;static/images/jtfx.png&quot;);">单位以低价售房奖励职工，莫忘代扣代缴个人所得税……</div></a></li><li style="width: 77px;"><a href="http://sns.leshui365.com/article/25 " target="_blank"><img src="http://file.leshui365.com/LS/PHB15900000555043/TB/TB-PHB1590000055504320151229120706.jpg?Expires=16756646400&amp;OSSAccessKeyId=Vo8JZHGxOUgtszc6&amp;Signature=O2U9Ck6DfBUtesNs4%2FEW7S7KEds%3D&amp;id=3869"><div class="jxxq" style="width: 162px; height: 77px; left: 70px; top: 156px; padding-left: 20px; background: url(&quot;static/images/jtfx1.png&quot;);">年终收入，全年一次性奖金和其他奖金要分别计算个人所得税……</div></a></li><li style="width: 77px;"><a href="http://sns.leshui365.com/article/22 " target="_blank"><img src="http://file.leshui365.com/LS/PHB15900000555042/TB/TB-PHB1590000055504220151229120639.jpg?Expires=16756646400&amp;OSSAccessKeyId=Vo8JZHGxOUgtszc6&amp;Signature=a6hjLn8mBLQ%2F9exFPXpKm6Mmg2w%3D&amp;id=2104"><div class="jxxq" style="width: 162px; height: 77px; left: 148px; top: 156px; padding-left: 20px; background: url(&quot;static/images/jtfx1.png&quot;);">卖400万元货，需要交100万元税？2015年4月，天猫店……</div></a></li><li style="width: 155px;"><a href="http://sns.leshui365.com/article/21" target="_blank"><img src="http://file.leshui365.com/LS/PHB15900000555041/TB/TB-PHB1590000055504120151229120610.jpg?Expires=16756646400&amp;OSSAccessKeyId=Vo8JZHGxOUgtszc6&amp;Signature=w2EGG3vsRWJwa5LUTSk2ucezYD0%3D&amp;id=200"><div class="jxxq" style="width: 162px; height: 77px; right: 76px; top: 156px; background: url(&quot;static/images/jtfx.png&quot;);">遭遇职业发票投诉师怎么办？天猫商城一家鞋店最近遇到了头疼事……</div></a></li>
+
+            </ul>
+          </div>
+        </div>
+
+
+        <div class="sq_xzwd_box_right">
+          <p class="dop_dkgl_title" title="232323">精品问答</p>
+          <div class="sq_xzwd_jpwd" id="jpwdlist">
+            <div class="sq_xzwd_jpwd_list"><div class="jpwd_wen">问：卷烟批发环节应交消费税的收入确认中包括零..</div><div class="jpwd_da">答: 需要加上，学员可以从纳税环节上考虑。你要记住每一个卷烟，到达最终消费者的消费环节都需要缴纳两个环节的消费税，一个是生产环..<a class='gray'ref="http://sns.leshui365.com/question/6133" target="_blank">&gt;&gt;详情</a></div></div><div class="sq_xzwd_jpwd_list"><div class="jpwd_wen">问：营改增后，建筑企业如何平衡选择“简易计税..</div><div class="jpwd_da">答: 建筑企业营改增后，一般计税是11%，简易计税是3%，由于进项不足，所以选择简易计税肯定划算吗？答：当然不是。取决..<a class='gray'ref="http://sns.leshui365.com/question/5871" target="_blank">&gt;&gt;详情</a></div></div><div class="sq_xzwd_jpwd_list"><div class="jpwd_wen">问：增值税，价外税流转，独立于商品价格，不影..</div><div class="jpwd_da">答: 增值税设计者是上世纪五十年代法国税务总局局长莫里斯·洛雷，这位老兄真是一位税收天才，把玩了几下数学游戏，即在购销价格中切..<a class='gray'ref="http://sns.leshui365.com/question/5897" target="_blank">&gt;&gt;详情</a></div></div>
+
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+    <div class="sy_yqlj">
+      <div class="dop_sws_cbox1_left_title">
+        <p>友情链接</p>
+      </div>
+      <div class="sy_yqlj_flink" id="">
+        <a class='gray' href="http://www.chinatax.gov.cn/" target="_blank">国家税务总局</a> <a class='gray' href="http://www.mof.gov.cn/index.htm" target="_blank">国家财政部</a> <a class='gray' href="http://www.saic.gov.cn/" target="_blank">工商行政管理总局</a> <a class='gray' href="http://www.miit.gov.cn/newweb/" target="_blank">工业和信息化部</a> <a class='gray' href="http://www.cctaa.cn/" target="_blank">中国注册税务师协会</a> <a class='gray' href="http://www.ecctaa.com/" target="_blank">中税协信息服务平台</a>
+      </div>
+    </div>
+    <footer id="footer">
+      <div class="footer_sxsm">
+        <div class="footer_1_sxsm">
+          <ul>
+            <li>
+              <p><img src="static/images/foo_qw1.jpg"></p>
+              <p class="fo_title">权威</p>
+              <p class="fo_js">5000+事务所，30000+税务师</p>
+            </li>
+            <li class="footer-center-li">
+              <p><img src="static/images/foo_qw2.jpg"></p>
+              <p class="fo_title">专业</p>
+              <p class="fo_js">新锐知识分享，精彩政策解读</p>
+            </li>
+            <li>
+              <p><img src="static/images/foo_qw3.jpg"></p>
+              <p class="fo_title">安全</p>
+              <p class="fo_js">严苛风险控制，统一评价体系</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer_gywmalink">
+        <div>
+        <a href="aboutus.html" class="white" target="_blank" rel="nofollow">关于乐税</a>
+        <a href="friendlink.html" class="white" target="_blank" rel="nofollow">平台合作</a>
+        <a href="useterms.html" class="white" target="_blank" rel="nofollow">使用条款</a>
+        <a href="map.html" class="white" target="_blank">网站导航</a>
+        <a href="joinus.html" class="white" target="_blank" rel="nofollow">诚聘英才</a>
+        <a href="helpcenter.html" class="white" target="_blank" rel="nofollow">帮助中心</a>
+        <a href="contactus.html" class="white" target="_blank" rel="nofollow">联系我们</a>
+      </div>
+      </div>
+      <div class="footer_banquan">
+      神州易泰信息服务（北京）有限公司&nbsp;&nbsp;&nbsp;&nbsp;京ICP备15034534号-1&nbsp;&nbsp;&nbsp;&nbsp;Copyright
+      © 2015-2016 leshui365.com 版权所有
+      </div>
+    </footer>
+    <!-- 浮层右侧 -->
+    <div class="floating_ck">
+      <dl>
+        <dt></dt>
+        <dd class="cart2 right-ico1gwc" onclick="javascript:window.open(basePath + 'work/cart/index.html','_blank');">
+          <table>
+            <tbody><tr>
+              <td>购物车<b id="lsw-cart2">0</b></td>
+            </tr>
+          </tbody></table>
+        </dd>
+        <dd class="consult kefu2 right-ico"><div id="BizQQWPA2"></div></dd>
+        <dd class="right-ico1">
+          <div class="floating_left floating_ewm">
+            <i></i> <b class="xx-to-right"></b>
+          </div>
+        </dd>
+        <dd class="words">
+          <div class="floating_left" style="width: 50px; height: 50px; left: 0px;border:none;top: 0px;">
+            <div class="bdsharebuttonbox bdshare-button-style0-32" data-tag="share_1" style="width: 55px;margin-top:2px;" data-bd-bind="1470899211370">
+              <a class="bds_more" data-cmd="more"></a>
+            </div>
+          </div>
+        </dd>
+        <dd class="quote right-ico2" onclick="javascript:window.open('feedback.html','_blank');" style="cursor: pointer;"></dd>
+        <dd class="return" id="moquu_top">
+          <span></span>
+        </dd>
+      </dl>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="static/jquery-3.1.0.min.js"></script>
+    <script src="static/EventUtil.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="static/zui/js/zui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.8/jquery.fullPage.js"></script>
+    <script src="js/linkStyle.js"></script>
+    <script src="js/index.js"></script>
+
+
+    <!-- 模态框 -->
+    <div class="modal modal-for-page fade" id="myModal" aria-hidden="true" style="display: none;" position="center">
+      <div class="modal-dialog" style="margin-top: 42px;">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="loginGroup">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">关闭</span></button>
+              <a id="userLoginTitle" class="modal-title Underline">账户登录</a>
+          </div>
+        </div>
+        <div class="modal-body">
+          <div id="switchBtn" class="loginGroup">
+            <div id="loginWaySwitch">手机快捷登录</div>
+          </div>
+          <form id="loginForm" action="">
+            <div class="loginGroup">
+              <div id="loginUser" class="input form-control">
+                <input type="text" class="textInput">
+              </div>
+            </div>
+            <div id="accountLogin" class="loginGroup show">
+              <div id="loginPwd" class="input form-control">
+                <input type="text" class="textInput">
+              </div>
+            </div>
+            <div id="mobileLogin" class="loginGroup hide">
+              <div id="verificationCode" class="input form-control">
+                <input type="text" class="textInput">
+              </div>
+              <div id="sendVerification">
+                <p>发送验证码</p>
+              </div>
+            </div>
+            <div class="loginGroup" style="height: 28px">
+              <span>
+                <input type="checkbox" id="dl_jzmm" style="float:left;">
+                <p class="xmText" style="float:left;">记住密码</p>
+              </span>
+              <a class="xmText" href="" style="float:right;">忘记密码？</a>
+            </div>
+            <div class="loginGroup">
+              <button type="button" class="btn btnLogin" style="float: left;">登录</button>
+              <button type="button" class="btn btnRegister" style="float: right;">注册</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  </body>
+</html>
