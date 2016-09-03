@@ -15,6 +15,14 @@ body .divHover:hover{
     outline-width:2px;
     outline-style:solid;
 }
+
+/*小页面选中黄色框*/
+body .showOutLine:hover{
+	outline-color:#fd9243;
+    outline-width:2px;
+    outline-style:solid;
+}
+
 a{
 	cursor:pointer;
 }
