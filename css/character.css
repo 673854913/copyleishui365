@@ -8,6 +8,8 @@ body #kouhao_topdh{
 }
 body #top_dht{
 	height: 38px;
+    margin: 0px;
+    background: #f7f7f6;
 }
 
 body #kouhao_topdh>ul>li{
@@ -28,6 +30,7 @@ body #kouhao_topdh .dop_zcxq{
     width: 122px;
     background: url(../static/images/dop_bjsj.png) no-repeat;
     padding-top: 12px;
+    padding-left: 30px;
     z-index: 100;
 }
 
@@ -40,7 +43,7 @@ body #kouhao_topdh .ewm_le{
     left: -70px;
     top: 26px;
     z-index: 100;
-    padding-top: 6px;
+    padding-top: 20px;
 }
 /*购物车*/ 
 .gwc_syzs {
@@ -121,6 +124,9 @@ form .input{
 }
 
 /*广告*/
+#ad01{
+    margin :0px;
+}
 #ad01 a{
 	cursor: pointer;
     position: absolute;
@@ -201,7 +207,6 @@ form .input{
 }
 
 #searchButton{
-	background-color: #e04646;
 	height: 100%;
 	font-weight: 100;
     font-size: 16px;

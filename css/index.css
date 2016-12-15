@@ -72,6 +72,18 @@ div .row {
 	color:#ffffff;
 }
 
+.back_red{
+	background-color: #e04646;
+}
+.back_orange{
+	background-color: #fd9243;
+}
+#searchButton.back_orange{
+	background-color: #fd9243;
+	border-color: #fd9243;
+}
+
+
 .centerBox{
 	width: 1000px !important;
 	min-width: 1000px;

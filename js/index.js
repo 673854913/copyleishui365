@@ -25,7 +25,8 @@ $(function(){
 	$('.ad').find('a').click(closeAd);
 	//切换搜索
 	$('#searchBox').find('.dropdown-menu').find('li').click(switchSearch);
-
+	$('#searchButton').mouseover(changbackcolor)
+	$('#searchButton').mouseout(changbackcolor)
 	//首页菜单切换效果
 	$('#shouyeTopLeft').find('li').mouseover(switchMenu);
 	$('#shouyeTopLeft').find('li').mouseout(switchMenu);

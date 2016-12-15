@@ -12,6 +12,17 @@ function topDhtQh(){
     }
 };
 
+//乐税一下改变背景色
+function changbackcolor(){
+	var backcolor=this.getAttribute('class');
+	console.log(backcolor);
+	if(backcolor=='btn btn-primary back_red'){
+		this.setAttribute('class','btn btn-primary back_orange')
+	}else if(backcolor=='btn btn-primary back_orange'){
+		this.setAttribute('class','btn btn-primary back_red')
+	}
+}
+
 //模态框切换
 function switchLoginWay(){
 	var state=$('#userLoginTitle').text()
@@ -29,11 +40,11 @@ function switchLoginWay(){
 
 //显示隐藏第二级菜单
 function switchTopDhtMenu(){
-    var flag=$(this).find('ul').css('display');
+    var flag=$(this).children('ul').css('display');
     if(typeof(flag) == 'undefined'){
-    	flag=$(this).find('div').css('display');
+    	flag=$(this).children('div').css('display');
     }
-    var aim=$(this).find('a').text()
+    var aim=$(this).children('a').text()
     if(flag=='none'){
     	if(aim=='免费注册'){
     		$(this).find('ul').attr('class','dop_zcxq show');
